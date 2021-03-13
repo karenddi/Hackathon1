@@ -2,7 +2,7 @@
 
 First hackathon on Python course by  CodeMe
 
-# Quiz final 
+# Quiz 
 
 General info:
 
