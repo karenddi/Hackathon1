@@ -15,7 +15,7 @@ if ans1 == "a":
     print("Congrats!")
     score = score + 1
 else:
-    print("Bad answer.")
+    print("Bad answer :(")
 print(" ")
 print(quest2)
 ans2 = input("Your answer is: ")
