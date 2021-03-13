@@ -30,18 +30,18 @@ elif category == "sports":
 
 
 codeword_len = len(codeword)
-tablica = list(codeword)
+table = list(codeword)
 chances = 5
 
 print("Codeword has", codeword_len, "letters. You've got", chances,"chances.")
 
 
 for i in range(codeword_len):
-    tablica[i] = '_'
+    table[i] = '_'
 
 while chances > 0:
 
-    print(" ".join(tablica))
+    print(" ".join(table))
 
     choice = input("Are you guessing whole codeword or just a letter? Type -'codeword' or 'letter':   ")
 
@@ -55,12 +55,12 @@ while chances > 0:
     if choice == "letter" and letter in codeword:
         for i in range(codeword_len):
             if (codeword[i] == letter):
-                    tablica[i] = letter
-        if ''.join(map(str,tablica)) == codeword:
+                    table[i] = letter
+        if ''.join(map(str,table)) == codeword:
 
             print("You've got", chances, " chances left.")
             print(" ")
-            print(' '.join(tablica))
+            print(' '.join(table))
             print(" ")
             print("You won!")
             break
