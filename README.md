@@ -14,7 +14,7 @@ Project is created with: Python 3.9
 To run this project you need to use Python or environment dedicated to it e.g. Pycharm.
 
 
-##Hangman game
+#Hangman game
 
 
 ## General info
